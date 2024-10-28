@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge name</title>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- TailwindCSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#f0f2c0] min-h-screen grid place-items-center p-8">
+    <div
+      class="card-container bg-white text-center shadow-2xl max-w-sm rounded-[40px] overflow-hidden"
+    >
+      <div class="relative">
+        <div class="h-[80px]"></div>
+        <img src="./assets/waves.svg" class="" />
+        <div class="bg-[#973150] w-full h-[150px] absolute top-0"></div>
+
+        <div
+          class="w-[135px] h-[135px] absolute rounded-full bg-black top-4 left-[50%] translate-x-[-50%] bg-[url(./assets/me.jpg)] bg-cover bg-center"
+        ></div>
+      </div>
+
+      <h1 class="mt-8 text-3xl tracking-widest font-semibold">Zohaib Khan</h1>
+      <p class="text-gray-500 font-medium">@zohaibkhan</p>
+
+      <div
+        class="grid grid-cols-[repeat(5,_24px)] my-8 items-center justify-center gap-6"
+      >
+        <a href="">
+          <img src="./assets/fb-icon.svg" alt="Facebook link" />
+        </a>
+        <a href="">
+          <img src="./assets/insta-icon.svg" alt="Instagram link" />
+        </a>
+        <a href="">
+          <img src="./assets/linkedin-icon.svg" alt="LinkedIn link" />
+        </a>
+        <a href="">
+          <img src="./assets/twitter-icon.svg" alt="Twitter link" />
+        </a>
+        <a href="">
+          <img src="./assets/reddit-icon.svg" alt="Reddit link" />
+        </a>
+      </div>
+
+      <p class="text-sm font-medium mx-10">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa labore
+        error eveniet recusandae esse quis beatae? Maxime laboriosam unde quae!
+      </p>
+
+      <div class="pt-14 pb-8 grid grid-cols-2 gap-4 px-10">
+        <button class="bg-[#e03f8b] text-white p-2 rounded-full">Follow</button>
+        <button
+          class="border border-gray-500 rounded-full text-gray-500 font-medium"
+        >
+          Message
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
